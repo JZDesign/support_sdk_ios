@@ -15,10 +15,10 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "ZendeskSupportProvidersSDK",
-                 url: "https://github.com/zendesk/support_providers_sdk_ios",
+                 url: "https://github.com/JZDesign/support_providers_sdk_ios",
                  .branch("xcode.13.spm.for.5.5.0")),
         .package(name: "ZendeskMessagingSDK",
-                 url: "https://github.com/zendesk/messaging_sdk_ios",
+                 url: "https://github.com/JZDesign/messaging_sdk_ios",
                  .branch("xcode.13.spm.for.5.5.0"))
     ],
     targets: [
